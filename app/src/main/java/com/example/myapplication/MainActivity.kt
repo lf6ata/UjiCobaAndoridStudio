@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onClick(v: View?) {
         if (textInput.text.toString().trim() != ""){
-            Toast.makeText(this, "Nama Berhasil Di input",
+            Toast.makeText(this, "Nama Di input",
                 Toast.LENGTH_SHORT).show()
 
             textResult.text = textInput.text.toString().trim()
